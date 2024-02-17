@@ -1,0 +1,17 @@
+# Program to print the entire name and count the number of letters in the name
+NAME1 = input("What is your FIRST name?\n")
+print(NAME1)
+LENGTH1 = len(NAME1)
+print(LENGTH1)
+NAME2 = input("What is your MIDDLE name?\n")
+print(NAME2)
+LENGTH2 = len(NAME2)
+print(LENGTH2)
+NAME3 = input("What is your SURNAME name?\n")
+print(NAME3)
+LENGTH3 = len(NAME3)
+print(LENGTH3)
+print("Your full NAME is: " + NAME1 + " " + NAME2 + " " + NAME3)
+print("The total letters in your full NAME are: ", LENGTH1 + LENGTH2 + LENGTH3)
+
+print(len(input("What is your name?\n")))
